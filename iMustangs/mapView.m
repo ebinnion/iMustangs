@@ -23,8 +23,12 @@
     // Create region
     cscMap.mapType=MKMapTypeSatellite;
     MKCoordinateRegion newRegion;
+    
+    // Determines the center of the map
     newRegion.center.latitude = 33.874406;
     newRegion.center.longitude = -98.521196;
+    
+    // Determines the the zoom
     newRegion.span.latitudeDelta = 0.006;
     newRegion.span.longitudeDelta = 0.006;
     

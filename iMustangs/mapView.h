@@ -11,6 +11,7 @@
 @interface mapView : UIViewController
 
 -(IBAction)close:(id)sender;
+
 @property (weak, nonatomic) IBOutlet MKMapView *cscMap;
 
 -(void) goLocation;
