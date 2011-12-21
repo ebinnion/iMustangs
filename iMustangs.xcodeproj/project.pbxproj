@@ -20,6 +20,8 @@
 		D10A61C214A207B7004D174E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10A61A314A207B6004D174E /* Foundation.framework */; };
 		D10A61CA14A207B7004D174E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D10A61C814A207B7004D174E /* InfoPlist.strings */; };
 		D10A61CD14A207B7004D174E /* iMustangsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D10A61CC14A207B7004D174E /* iMustangsTests.m */; };
+		D1B9B57714A20C89003B9FC3 /* iMustangsBg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1B9B57614A20C89003B9FC3 /* iMustangsBg@2x.jpg */; };
+		D1B9B57914A20C8F003B9FC3 /* iMustangsBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1B9B57814A20C8F003B9FC3 /* iMustangsBg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +39,23 @@
 		D10A61A114A207B6004D174E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D10A61A314A207B6004D174E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D10A61A514A207B6004D174E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D10A61A914A207B6004D174E /* iMustangs-Info.plist */ = {isa = PBXFileReference; path = "iMustangs-Info.plist"; sourceTree = "<group>"; };
+		D10A61A914A207B6004D174E /* iMustangs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMustangs-Info.plist"; sourceTree = "<group>"; };
 		D10A61AB14A207B6004D174E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D10A61AD14A207B6004D174E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D10A61AF14A207B6004D174E /* iMustangs-Prefix.pch */ = {isa = PBXFileReference; path = "iMustangs-Prefix.pch"; sourceTree = "<group>"; };
-		D10A61B014A207B6004D174E /* IMAppDelegate.h */ = {isa = PBXFileReference; path = IMAppDelegate.h; sourceTree = "<group>"; };
+		D10A61AF14A207B6004D174E /* iMustangs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMustangs-Prefix.pch"; sourceTree = "<group>"; };
+		D10A61B014A207B6004D174E /* IMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMAppDelegate.h; sourceTree = "<group>"; };
 		D10A61B114A207B6004D174E /* IMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMAppDelegate.m; sourceTree = "<group>"; };
 		D10A61B414A207B6004D174E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D10A61B614A207B6004D174E /* IMViewController.h */ = {isa = PBXFileReference; path = IMViewController.h; sourceTree = "<group>"; };
+		D10A61B614A207B6004D174E /* IMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMViewController.h; sourceTree = "<group>"; };
 		D10A61B714A207B6004D174E /* IMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMViewController.m; sourceTree = "<group>"; };
 		D10A61BE14A207B7004D174E /* iMustangsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMustangsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10A61BF14A207B7004D174E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		D10A61C714A207B7004D174E /* iMustangsTests-Info.plist */ = {isa = PBXFileReference; path = "iMustangsTests-Info.plist"; sourceTree = "<group>"; };
+		D10A61C714A207B7004D174E /* iMustangsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMustangsTests-Info.plist"; sourceTree = "<group>"; };
 		D10A61C914A207B7004D174E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D10A61CB14A207B7004D174E /* iMustangsTests.h */ = {isa = PBXFileReference; path = iMustangsTests.h; sourceTree = "<group>"; };
+		D10A61CB14A207B7004D174E /* iMustangsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iMustangsTests.h; sourceTree = "<group>"; };
 		D10A61CC14A207B7004D174E /* iMustangsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMustangsTests.m; sourceTree = "<group>"; };
+		D1B9B57614A20C89003B9FC3 /* iMustangsBg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iMustangsBg@2x.jpg"; sourceTree = "<group>"; };
+		D1B9B57814A20C8F003B9FC3 /* iMustangsBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iMustangsBg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,10 @@
 				D10A61B314A207B6004D174E /* MainStoryboard.storyboard */,
 				D10A61B614A207B6004D174E /* IMViewController.h */,
 				D10A61B714A207B6004D174E /* IMViewController.m */,
+				D1B9B58814A20CFD003B9FC3 /* Model */,
+				D1B9B58714A20CFB003B9FC3 /* Views */,
+				D1B9B58614A20CF7003B9FC3 /* Controller */,
+				D1B9B57414A20C42003B9FC3 /* images */,
 				D10A61A814A207B6004D174E /* Supporting Files */,
 			);
 			path = iMustangs;
@@ -149,6 +157,36 @@
 				D10A61C814A207B7004D174E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1B9B57414A20C42003B9FC3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D1B9B57814A20C8F003B9FC3 /* iMustangsBg.jpg */,
+				D1B9B57614A20C89003B9FC3 /* iMustangsBg@2x.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		D1B9B58614A20CF7003B9FC3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D1B9B58714A20CFB003B9FC3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D1B9B58814A20CFD003B9FC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +261,8 @@
 			files = (
 				D10A61AC14A207B6004D174E /* InfoPlist.strings in Resources */,
 				D10A61B514A207B6004D174E /* MainStoryboard.storyboard in Resources */,
+				D1B9B57714A20C89003B9FC3 /* iMustangsBg@2x.jpg in Resources */,
+				D1B9B57914A20C8F003B9FC3 /* iMustangsBg.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +469,7 @@
 				D10A61D214A207B7004D174E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D10A61D314A207B7004D174E /* Build configuration list for PBXNativeTarget "iMustangsTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +478,7 @@
 				D10A61D514A207B7004D174E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
