@@ -20,6 +20,7 @@
 		D10A61C214A207B7004D174E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10A61A314A207B6004D174E /* Foundation.framework */; };
 		D10A61CA14A207B7004D174E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D10A61C814A207B7004D174E /* InfoPlist.strings */; };
 		D10A61CD14A207B7004D174E /* iMustangsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D10A61CC14A207B7004D174E /* iMustangsTests.m */; };
+		D163955E14A220D900FE98EC /* developersView.m in Sources */ = {isa = PBXBuildFile; fileRef = D163955D14A220D900FE98EC /* developersView.m */; };
 		D1B9B57714A20C89003B9FC3 /* iMustangsBg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1B9B57614A20C89003B9FC3 /* iMustangsBg@2x.jpg */; };
 		D1B9B57914A20C8F003B9FC3 /* iMustangsBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1B9B57814A20C8F003B9FC3 /* iMustangsBg.jpg */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,8 @@
 		D10A61C914A207B7004D174E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D10A61CB14A207B7004D174E /* iMustangsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iMustangsTests.h; sourceTree = "<group>"; };
 		D10A61CC14A207B7004D174E /* iMustangsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMustangsTests.m; sourceTree = "<group>"; };
+		D163955C14A220D900FE98EC /* developersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = developersView.h; sourceTree = "<group>"; };
+		D163955D14A220D900FE98EC /* developersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = developersView.m; sourceTree = "<group>"; };
 		D1B9B57614A20C89003B9FC3 /* iMustangsBg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iMustangsBg@2x.jpg"; sourceTree = "<group>"; };
 		D1B9B57814A20C8F003B9FC3 /* iMustangsBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iMustangsBg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -178,6 +181,8 @@
 		D1B9B58714A20CFB003B9FC3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D163955C14A220D900FE98EC /* developersView.h */,
+				D163955D14A220D900FE98EC /* developersView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -300,6 +305,7 @@
 				D10A61AE14A207B6004D174E /* main.m in Sources */,
 				D10A61B214A207B6004D174E /* IMAppDelegate.m in Sources */,
 				D10A61B814A207B6004D174E /* IMViewController.m in Sources */,
+				D163955E14A220D900FE98EC /* developersView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
