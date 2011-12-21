@@ -21,6 +21,8 @@
 		D10A61CA14A207B7004D174E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D10A61C814A207B7004D174E /* InfoPlist.strings */; };
 		D10A61CD14A207B7004D174E /* iMustangsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D10A61CC14A207B7004D174E /* iMustangsTests.m */; };
 		D163955E14A220D900FE98EC /* developersView.m in Sources */ = {isa = PBXBuildFile; fileRef = D163955D14A220D900FE98EC /* developersView.m */; };
+		D163956114A22A9400FE98EC /* mapView.m in Sources */ = {isa = PBXBuildFile; fileRef = D163956014A22A9400FE98EC /* mapView.m */; };
+		D163956314A2317000FE98EC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D163956214A2317000FE98EC /* MapKit.framework */; };
 		D1B9B57714A20C89003B9FC3 /* iMustangsBg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1B9B57614A20C89003B9FC3 /* iMustangsBg@2x.jpg */; };
 		D1B9B57914A20C8F003B9FC3 /* iMustangsBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1B9B57814A20C8F003B9FC3 /* iMustangsBg.jpg */; };
 /* End PBXBuildFile section */
@@ -57,6 +59,9 @@
 		D10A61CC14A207B7004D174E /* iMustangsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMustangsTests.m; sourceTree = "<group>"; };
 		D163955C14A220D900FE98EC /* developersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = developersView.h; sourceTree = "<group>"; };
 		D163955D14A220D900FE98EC /* developersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = developersView.m; sourceTree = "<group>"; };
+		D163955F14A22A9400FE98EC /* mapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapView.h; sourceTree = "<group>"; };
+		D163956014A22A9400FE98EC /* mapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapView.m; sourceTree = "<group>"; };
+		D163956214A2317000FE98EC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		D1B9B57614A20C89003B9FC3 /* iMustangsBg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iMustangsBg@2x.jpg"; sourceTree = "<group>"; };
 		D1B9B57814A20C8F003B9FC3 /* iMustangsBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iMustangsBg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D163956314A2317000FE98EC /* MapKit.framework in Frameworks */,
 				D10A61A214A207B6004D174E /* UIKit.framework in Frameworks */,
 				D10A61A414A207B6004D174E /* Foundation.framework in Frameworks */,
 				D10A61A614A207B6004D174E /* CoreGraphics.framework in Frameworks */,
@@ -107,6 +113,7 @@
 		D10A61A014A207B6004D174E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D163956214A2317000FE98EC /* MapKit.framework */,
 				D10A61A114A207B6004D174E /* UIKit.framework */,
 				D10A61A314A207B6004D174E /* Foundation.framework */,
 				D10A61A514A207B6004D174E /* CoreGraphics.framework */,
@@ -183,6 +190,8 @@
 			children = (
 				D163955C14A220D900FE98EC /* developersView.h */,
 				D163955D14A220D900FE98EC /* developersView.m */,
+				D163955F14A22A9400FE98EC /* mapView.h */,
+				D163956014A22A9400FE98EC /* mapView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -306,6 +315,7 @@
 				D10A61B214A207B6004D174E /* IMAppDelegate.m in Sources */,
 				D10A61B814A207B6004D174E /* IMViewController.m in Sources */,
 				D163955E14A220D900FE98EC /* developersView.m in Sources */,
+				D163956114A22A9400FE98EC /* mapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

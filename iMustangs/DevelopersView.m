@@ -9,7 +9,6 @@
 #import "developersView.h"
 
 @implementation developersView
-@synthesize delegate;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -58,6 +57,7 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+// This code will close the Modal view
 -(IBAction)close:(id)sender
 {
     [self dismissViewControllerAnimated:YES completion:nil];

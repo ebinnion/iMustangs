@@ -1,5 +1,5 @@
 //
-//  developersView.h
+//  mapView.h
 //  iMustangs
 //
 //  Created by Eric Binnion on 12/21/11.
@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface developersView : UIViewController
+#import "MapKit/MapKit.h"
+@interface mapView : UIViewController
 
 -(IBAction)close:(id)sender;
+@property (weak, nonatomic) IBOutlet MKMapView *cscMap;
+
+-(void) goLocation;
 
 @end
