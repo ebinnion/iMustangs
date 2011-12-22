@@ -32,6 +32,9 @@
     newRegion.span.latitudeDelta = 0.006;
     newRegion.span.longitudeDelta = 0.006;
     
+    // Code below will allow showing the user's location
+    // cscMap.showsUserLocation=YES;
+    
     [self.cscMap setRegion:newRegion animated:YES];
 }
 

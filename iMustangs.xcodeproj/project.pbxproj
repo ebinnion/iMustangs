@@ -32,6 +32,8 @@
 		D163956314A2317000FE98EC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D163956214A2317000FE98EC /* MapKit.framework */; };
 		D163956614A238D900FE98EC /* person-placeholder-female.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D163956414A238D900FE98EC /* person-placeholder-female.jpg */; };
 		D163956714A238D900FE98EC /* person-placeholder-male.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D163956514A238D900FE98EC /* person-placeholder-male.jpg */; };
+		D1A3387714A2F2DD00423994 /* athleticEventsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3387614A2F2DD00423994 /* athleticEventsView.m */; };
+		D1A3387B14A2F36200423994 /* schoolSongView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3387A14A2F36200423994 /* schoolSongView.m */; };
 		D1B9B57714A20C89003B9FC3 /* iMustangsBg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1B9B57614A20C89003B9FC3 /* iMustangsBg@2x.jpg */; };
 		D1B9B57914A20C8F003B9FC3 /* iMustangsBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1B9B57814A20C8F003B9FC3 /* iMustangsBg.jpg */; };
 /* End PBXBuildFile section */
@@ -85,6 +87,10 @@
 		D163956214A2317000FE98EC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		D163956414A238D900FE98EC /* person-placeholder-female.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "person-placeholder-female.jpg"; sourceTree = "<group>"; };
 		D163956514A238D900FE98EC /* person-placeholder-male.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "person-placeholder-male.jpg"; sourceTree = "<group>"; };
+		D1A3387514A2F2DD00423994 /* athleticEventsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = athleticEventsView.h; sourceTree = "<group>"; };
+		D1A3387614A2F2DD00423994 /* athleticEventsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = athleticEventsView.m; sourceTree = "<group>"; };
+		D1A3387914A2F36200423994 /* schoolSongView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = schoolSongView.h; sourceTree = "<group>"; };
+		D1A3387A14A2F36200423994 /* schoolSongView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = schoolSongView.m; sourceTree = "<group>"; };
 		D1B9B57614A20C89003B9FC3 /* iMustangsBg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iMustangsBg@2x.jpg"; sourceTree = "<group>"; };
 		D1B9B57814A20C8F003B9FC3 /* iMustangsBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iMustangsBg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -229,6 +235,10 @@
 				D10A955414A29B77007953A5 /* chaseSawyerView.m */,
 				D10A955614A29B89007953A5 /* ericBinnionView.h */,
 				D10A955714A29B89007953A5 /* ericBinnionView.m */,
+				D1A3387514A2F2DD00423994 /* athleticEventsView.h */,
+				D1A3387614A2F2DD00423994 /* athleticEventsView.m */,
+				D1A3387914A2F36200423994 /* schoolSongView.h */,
+				D1A3387A14A2F36200423994 /* schoolSongView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -362,6 +372,8 @@
 				D10A955214A29B5D007953A5 /* shawnSealsView.m in Sources */,
 				D10A955514A29B77007953A5 /* chaseSawyerView.m in Sources */,
 				D10A955814A29B89007953A5 /* ericBinnionView.m in Sources */,
+				D1A3387714A2F2DD00423994 /* athleticEventsView.m in Sources */,
+				D1A3387B14A2F36200423994 /* schoolSongView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
